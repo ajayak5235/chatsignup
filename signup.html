@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="saveUser(event)">
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">EmailID:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="phone">Mobile No.</label><br>
+        <input type="text" id="phone" name="phone"><br>
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password"><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+    <script src="./script/signup.js"></script>
+</body>
+</html>
